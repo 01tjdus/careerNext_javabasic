@@ -24,5 +24,7 @@ public class ThreadTest3 {
         ex1.join();
         ex2.join();
         System.out.println(e.c.i);
+
+        //test
     }
 }
