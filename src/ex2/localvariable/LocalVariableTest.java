@@ -1,0 +1,43 @@
+package ex2.localvariable;
+
+/* public class LocalVariableTest {
+    static  void m1(){
+        int  i = 10;   	  //1)   i 지역변수 생성
+    }    //1) i 지역변수 사라짐
+    static  void m2(){
+        boolean i;
+        System.out.println(i);  // 컴파일 오류.  i 변수 없음.
+    }
+
+    static void m3(){
+        int j = 10;      //3)  j 지역변수 생성
+        do{
+            int i = 10;   //2)  i 지역변수 생성
+            /*int j = 1;   컴파일 오류. 같은 메소드 내에 같은 이름의 지역변수(매개변수 포함)가 두 개 이상 있을 수 없다. */
+        /*}while(j<3);     //2) i 지역변수 사라짐
+        int i = 20;    // 가능
+        System.out.println(i); //  가능
+    }  //3)  j 지역변수 사라짐
+
+    static void m4() {
+        int result =10 ;   //4) result 지역변수 생성
+    } //4) result 지역변수 사라짐
+
+    public static void main(String[] args) {
+        m4();
+        System.out.println(result);    // 컴파일  오류.  result 변수 없음.
+        for(int i = 0 ; i< 3 ;  i++) {   //5) i 지역변수 생성
+            System.out.print(i+" ");
+        } //5) i 지역변수 사라짐
+        System.out.println(i);   // 컴파일  오류.  i 변수 없음.
+    }
+}
+
+
+class Ex{
+    public static void main(String[] args) {
+        int  j=0 ;    System.out.println(j); //  j의 변수에 0값을 할당(초기화).  오류 없음
+        int  i ;      System.out.println(i);  //  i의 변수에 값을 할당한 적이 없어서 오류.
+    }
+}
+*/
